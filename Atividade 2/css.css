@@ -1,0 +1,106 @@
+body,html { 
+  margin:0;
+  padding:0;
+  background-color: #FFDEAD;
+}
+
+header {
+width: 100%; /*A largura do elemento se ajusta de acordo com a medida que diminuimos a página */
+left: 0px;
+}
+
+img{
+  position: fixed;
+  top: 10px;
+  width: 150px;
+  z-index: 100;
+  right: 0pt;
+}
+
+.titulo {
+padding-top: 65px ;
+padding-left: 10px ; 
+margin-top: 0;
+}
+
+.container {
+background: #f4a460;
+height: 150px;
+
+}
+
+
+/* ---------------------------------------------- INICIO MENU -----------------------------------------------*/
+.menu {
+background: #aaccdd;
+width: 100%;
+}
+
+.menu ul {
+text-align: center;
+margin: 0px;
+height: 25px; 
+padding: 18px;
+}
+
+.menu ul li {
+display: inline;
+height: 25px;
+padding: 250px 20px;
+}
+
+.menu ul li a {
+color: black;
+text-decoration: none;
+}
+
+.menu ul li a :hover {
+color: red;
+text-decoration: underline;
+}
+
+/* ---------------------------------------------- FINAL DO MENU-----------------------------------------------*/
+
+
+/*----------------------------------------------COMEÇO DO MAIN------------------------------------------------*/
+main{ 
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.conteudo{
+background-color: #FFDEAD;
+position: absolute;
+width: 602px;
+height: 85px;
+float:left;
+margin-top: 300px;
+margin-left: 20px;
+padding-right: 400px;
+}
+
+.container-texto{
+width: 100%;
+height: 100%;
+
+}
+/*---------------------------------------------- FINAL DO MAIN------------------------------------------------*/
+
+
+
+/*-----------------------------------------------Está parte se refere ao rodape da página ----------------------------------------------*/
+
+footer {
+position: absolute;
+width: 100%;
+height: 55px;
+left: 0px;
+bottom: 0px;
+background: #aaccdd;
+}
+
+.rodape{
+text-align: center;
+}
+
+/*-----------------------------------------------Está parte se refere ao rodape da página ----------------------------------------------*/
